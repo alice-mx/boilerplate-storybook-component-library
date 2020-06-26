@@ -1,2 +1,2 @@
-export * as Label from './components/label';
-export * as Input from './components/input';
+export { default as Label } from './components/label';
+export { default as Input } from './components/input';

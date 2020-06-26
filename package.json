@@ -1,8 +1,9 @@
 {
 	"name": "boilerplate-storybook-component-library",
-	"version": "1.0.0",
+	"version": "1.0.4",
 	"main": "index.js",
 	"license": "MIT",
+	"types": "dist/index.d.ts",
 	"dependencies": {
 		"react": "^16.13.1",
 		"react-dom": "^16.13.1",
@@ -22,9 +23,7 @@
 		"webpack-cli": "^3.3.12"
 	},
 	"scripts": {
-		"build": "webpack",
-		"run": "start-storybook -p 6006",
-		"storybook": "start-storybook -p 6006",
-		"build-storybook": "build-storybook"
+		"build": "tsc",
+		"run": "start-storybook -p 6006"
 	}
 }

@@ -2,7 +2,12 @@
 	"compilerOptions": {
 		"jsx": "react",
 		"sourceMap": true,
-		"module": "esnext",
-		"moduleResolution": "node"
-	}
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"declaration": true,
+		"outDir": "dist",
+		"types": [],
+		"skipLibCheck": true
+	},
+	"exclude": ["node_modules", "dist", "lib"]
 }
